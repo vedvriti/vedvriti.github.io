@@ -1,0 +1,236 @@
+/* .home{
+position: absolute;
+left: 60.45%;
+right: 25.39%;
+top: 12.73%;
+bottom: 29.09%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 128.52%;
+letter-spacing: 0.01em;
+color: #F5530D;
+}
+a:link{
+    text-decoration: none;
+}
+.about{position: absolute;
+    left: 70.81%;
+    right: 21.07%;
+    top: 16.36%;
+    bottom: 23.64%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 128.52%;
+    /* or 33px 
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.skills{
+    position: absolute;
+left: 81.69%;
+right: 10.88%;
+top: 12.73%;
+bottom: 18.18%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 151.52%;
+/* identical to box height, or 38px 
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.resume{
+    position: absolute;
+left: 91.88%;
+right: -1.21%;
+top: 18.18%;
+bottom: 20%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 128.52%;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.name{
+    position: absolute;
+    left: 0%;
+    right: 82.73%;
+    top: 0%;
+    bottom: 0%;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 128.52%;
+    /* or 55px 
+    
+    letter-spacing: 0.145em;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: color-dodge;
+    border: 1px solid #E91E1E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.vedica{
+    position: absolute;
+    left: 0%;
+    right: 82.73%;
+    top: 0%;
+    bottom: 0%;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 128.52%;
+    /* or 55px 
+    
+    letter-spacing: 0.145em;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: color-dodge;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}*/
+.navbar-brand img{
+    transition: all 3s;
+}
+.navbar-brand img:hover{
+    transform: rotate(1turn);
+} 
+
+.navbar{
+    background-color:rgb(76, 146, 231);
+}
+.navbar:hover{
+    filter:contrast(200%);
+}
+.nav-link:hover{
+    transform:scale(1.25);
+}
+.nav-link{
+    transition: transform 1s;
+}
+.btn-primary{
+    background-color: cornflowerblue;
+    border-radius: 2rem;
+}
+.head-color{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para-color{
+    color:rgb(73, 188, 245);
+    font-family:'Times New Roman', Times, serif;
+}
+.links{
+    text-decoration: none;
+}
+/* .navbar-brand{
+position: absolute;
+left: 0%;
+right: 82.73%;
+top: 0%;
+bottom: 0%;
+font-family:'Times New Roman', Times, serif;
+font-style:normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 128.52%;
+/* or 55px */
+/* letter-spacing: 0.120rem;
+color: #ffffff;
+mix-blend-mode: color-dodge;
+
+} */ 
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+.copyright-color{
+    color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.num-color{
+    color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mail-color{
+    color:cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: deepskyblue;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color:gold;
+}
+#about{
+    padding:90px 0px;
+    color:black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 60%;
+    border-radius:30px;
+    padding-top: 2rem;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1{
+    color: deepskyblue;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    color:gold;
+}
+.btn-primary:active
+{
+    background-color: rgb(24, 186, 222);
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid deepskyblue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: deepskyblue;
+    text-decoration: none;
+    margin:30px 15px 30px 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background: rgb(16, 167, 226);
+    color:black;
+    box-shadow: 0 0 2px rgb(11, 234, 250);
+}
